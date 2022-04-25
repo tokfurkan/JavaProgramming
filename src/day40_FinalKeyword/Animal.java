@@ -57,4 +57,16 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
+    //methods
+
+    public void eat(){
+        System.out.println(name + " is eating");
+    }
+    public final void drink(){
+        System.out.println(name + " is drinking water");
+    }
+
+
+
 }
