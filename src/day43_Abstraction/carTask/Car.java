@@ -1,6 +1,6 @@
 package day43_Abstraction.carTask;
 
-public class Car {
+public abstract class Car {
 
     private final String brand, model;
     private String color;
@@ -52,6 +52,12 @@ public class Car {
 
         this.price = price;
     }
+
+    public void stop(){
+        System.out.println("Press the break");
+    }
+
+    public abstract void start();
 
 
 
