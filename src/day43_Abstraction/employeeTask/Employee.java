@@ -7,12 +7,13 @@ public abstract class Employee extends Person {
     private String jobTitle;
     private double salary;
 
+    //parent class' constructor
     public Employee(String name, int age, char gender, int id, String jobTitle, double salary) {
         super(name, age, gender);
         this.id = id;
         this.jobTitle = jobTitle;
         this.salary = salary;
-    } //parent class' constructor
+    }
 
     //getters and setters
     public int getId() {
