@@ -31,7 +31,9 @@ class D implements X, Y, Z{
 
 
 
-public class Extends_vs_Implements {
+public class Extends_vs_Implements extends A implements X, Y, Z{
+
+    //if we use extends and implements keywords together, extends must come first otherwise we will get compile error
 
 
 
