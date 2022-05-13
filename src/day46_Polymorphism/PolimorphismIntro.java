@@ -17,7 +17,7 @@ public class PolimorphismIntro {
 
 
 
-    Object [] array = {str, n1, n2, r1, new Circle("Circle", 4), new Square("Square", 7)};
+    Object [] array = {str, n1, n2, r1, new Circle( 4), new Square("Square", 7)};
 
 
 
